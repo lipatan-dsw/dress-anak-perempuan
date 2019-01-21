@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Dress / Baju Casual Anak Perempuan - CMS 002 Murah,cms-002,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Dress Pendek Anak Perempuan - CSH 038 Murah,csh-038,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 002 Murah,cms-002,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,7 +47,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 002 Murah,cms-002,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CMS 002 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CMS 002<br/>Warna : MERAH<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Pendek Anak Perempuan - CSH 038 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSH 038<br/>Warna : CREAM<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -60,8 +60,8 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 002 Murah,cms-002,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna MERAH",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cms-002.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CMS 002,Rp 87.900,Rp 101.900,Rp 14.000,CMS 002,Baru
-Jual Dress / Baju Casual Anak Perempuan - CSH 028 Murah,csh-028,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna CREAM, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/csh-038.jpg,-/-,-/-,-/-,-/-,-/-,Dress Pendek Anak Perempuan - CSH 038,Rp 132.900,Rp 108.900,Rp 119.900,CSH 038,Baru
+Jual Atasan Lengan Pendek Anak Perempuan - CBV 033 Murah,cbv-033,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -86,7 +86,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 028 Murah,csh-028,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -109,7 +109,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 028 Murah,csh-028,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CSH 028 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CSH 028<br/>Warna : ABU KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Atasan Lengan Pendek Anak Perempuan - CBV 033 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CBV 033<br/>Warna : BIRU PUTIH<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -122,8 +122,8 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 028 Murah,csh-028,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/csh-028.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CSH 028,Rp 106.900,Rp 122.900,Rp 16.000,CSH 028,Baru
-Jual Dress / Baju Casual Anak Perempuan - CSH 025 Murah,csh-025,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna BIRU PUTIH, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cbv-033.jpg,-/-,-/-,-/-,-/-,-/-,Atasan Lengan Pendek Anak Perempuan - CBV 033,Rp 118.900,Rp 96.900,Rp 106.900,CBV 033,Baru
+Jual Atasan Panjang Anak Perempuan - CSH 040 Murah,csh-040,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -148,7 +148,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 025 Murah,csh-025,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -171,7 +171,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 025 Murah,csh-025,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CSH 025 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan JERSEY.<br/>Kode : CSH 025<br/>Warna : HITAM KOMBINASI<br/>Bahan : JERSEY<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Atasan Panjang Anak Perempuan - CSH 040 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSH 040<br/>Warna : MARUN<br/>Bahan : WOLL PEACH<br/>Ukuran : 6 ~ 10<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -184,8 +184,8 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 025 Murah,csh-025,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan JERSEY, Ukuran 4 ~ 10, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/csh-025.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CSH 025,Rp 92.900,Rp 106.900,Rp 14.000,CSH 025,Baru
-Jual Dress / Baju Casual Anak Perempuan - CSH 038 Murah,csh-038,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan WOLL PEACH, Warna MARUN, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/csh-040.jpg,-/-,-/-,-/-,-/-,-/-,Atasan Panjang Anak Perempuan - CSH 040,Rp 136.900,Rp 110.900,Rp 122.900,CSH 040,Baru
+Jual Dress Lengan Panjang Anak Perempuan - CDF 139 Murah,cdf-139,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -210,7 +210,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 038 Murah,csh-038,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -233,7 +233,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 038 Murah,csh-038,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CSH 038 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CSH 038<br/>Warna : CREAM<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Lengan Panjang Anak Perempuan - CDF 139 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDF 139<br/>Warna : BIRU KOMBINASI<br/>Bahan : DENIM<br/>Ukuran : 6 ~ 10<br/>Berat : 800 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -246,8 +246,8 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 038 Murah,csh-038,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/csh-038.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CSH 038,Rp 99.900,Rp 114.900,Rp 15.000,CSH 038,Baru
-Jual Dress / Baju Casual Anak Perempuan - CSH 037 Murah,csh-037,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Warna BIRU KOMBINASI, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdf-139.jpg,-/-,-/-,-/-,-/-,-/-,Dress Lengan Panjang Anak Perempuan - CDF 139,Rp 166.900,Rp 136.900,Rp 150.900,CDF 139,Baru
+Jual Atasan Pendek Anak Perempuan - CSE 185 Murah,cse-185,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -272,7 +272,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 037 Murah,csh-037,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -295,7 +295,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 037 Murah,csh-037,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CSH 037 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CSH 037<br/>Warna : BIRU NAVY<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Atasan Pendek Anak Perempuan - CSE 185 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSE 185<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : 6 ~ 10<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -308,8 +308,8 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 037 Murah,csh-037,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/csh-037.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CSH 037,Rp 99.900,Rp 114.900,Rp 15.000,CSH 037,Baru
-Jual Dress / Baju Casual Anak Perempuan - CMS 017 Murah,cms-017,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna ABU ABU, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cse-185.jpg,-/-,-/-,-/-,-/-,-/-,Atasan Pendek Anak Perempuan - CSE 185,Rp 137.900,Rp 112.900,Rp 123.900,CSE 185,Baru
+Jual Dress Pendek Anak Perempuan - CIS 252 Murah,cis-252,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -334,7 +334,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 017 Murah,cms-017,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -357,7 +357,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 017 Murah,cms-017,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CMS 017 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CMS 017<br/>Warna : PINK<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Pendek Anak Perempuan - CIS 252 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CIS 252<br/>Warna : PINK<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -370,8 +370,8 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 017 Murah,cms-017,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cms-017.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CMS 017,Rp 90.900,Rp 104.900,Rp 14.000,CMS 017,Baru
-Jual Dress / Baju Casual Anak Perempuan - CIS 232 Murah,cis-232,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna PINK, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cis-252.jpg,-/-,-/-,-/-,-/-,-/-,Dress Pendek Anak Perempuan - CIS 252,Rp 142.900,Rp 116.900,Rp 128.900,CIS 252,Baru
+Jual Stelan Lengan Pendek Anak Perempuan - CMS 033 Murah,cms-033,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -396,7 +396,7 @@ Jual Dress / Baju Casual Anak Perempuan - CIS 232 Murah,cis-232,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -419,7 +419,7 @@ Jual Dress / Baju Casual Anak Perempuan - CIS 232 Murah,cis-232,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CIS 232 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CIS 232<br/>Warna : TOSKA<br/>Bahan : COTTON<br/>Ukuran : 6 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Stelan Lengan Pendek Anak Perempuan - CMS 033 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMS 033<br/>Warna : HITAM PUTIH<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -432,8 +432,8 @@ Jual Dress / Baju Casual Anak Perempuan - CIS 232 Murah,cis-232,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 6 ~ 10, Warna TOSKA",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cis-232.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CIS 232,Rp 140.900,Rp 162.900,Rp 22.000,CIS 232,Baru
-Jual Dress / Baju Casual Anak Perempuan - CMS 001 Murah,cms-001,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna HITAM PUTIH, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cms-033.jpg,-/-,-/-,-/-,-/-,-/-,Stelan Lengan Pendek Anak Perempuan - CMS 033,Rp 132.900,Rp 108.900,Rp 119.900,CMS 033,Baru
+Jual Atasan Casual Anak Perempuan - CDF 119 Murah,cdf-119,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -458,7 +458,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 001 Murah,cms-001,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -481,7 +481,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 001 Murah,cms-001,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CMS 001 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CMS 001<br/>Warna : PUTIH PINK<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Atasan Casual Anak Perempuan - CDF 119 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDF 119<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 2 ~ 6<br/>Berat : 475 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -494,8 +494,8 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 001 Murah,cms-001,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna PUTIH PINK",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cms-001.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CMS 001,Rp 87.900,Rp 101.900,Rp 14.000,CMS 001,Baru
-Jual Dress / Baju Casual Anak Perempuan - CIS 235 Murah,cis-235,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Warna BIRU, Size 2 ~ 6",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdf-119.jpg,-/-,-/-,-/-,-/-,-/-,Atasan Casual Anak Perempuan - CDF 119,Rp 157.900,Rp 128.900,Rp 141.900,CDF 119,Baru
+Jual Dress Casual Anak Perempuan - CMS 016 Murah,cms-016,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -520,7 +520,7 @@ Jual Dress / Baju Casual Anak Perempuan - CIS 235 Murah,cis-235,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -543,7 +543,7 @@ Jual Dress / Baju Casual Anak Perempuan - CIS 235 Murah,cis-235,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CIS 235 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan SPANDEX.<br/>Kode : CIS 235<br/>Warna : PINK<br/>Bahan : SPANDEX<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Casual Anak Perempuan - CMS 016 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMS 016<br/>Warna : HITAM KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 350 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -556,8 +556,8 @@ Jual Dress / Baju Casual Anak Perempuan - CIS 235 Murah,cis-235,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan SPANDEX, Ukuran 4 ~ 10, Warna PINK",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cis-235.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CIS 235,Rp 133.900,Rp 153.900,Rp 20.000,CIS 235,Baru
-Jual Dress / Baju Casual Anak Perempuan - CMS 122 Murah,cms-122,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna HITAM KOMBINASI, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cms-016.jpg,-/-,-/-,-/-,-/-,-/-,Dress Casual Anak Perempuan - CMS 016,Rp 118.900,Rp 96.900,Rp 106.900,CMS 016,Baru
+Jual Dress Casual Anak Perempuan - CMS 001 Murah,cms-001,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -582,7 +582,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 122 Murah,cms-122,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -605,7 +605,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 122 Murah,cms-122,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CMS 122 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CMS 122<br/>Warna : PUTIH PINK<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Casual Anak Perempuan - CMS 001 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMS 001<br/>Warna : PUTIH PINK<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -618,8 +618,8 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 122 Murah,cms-122,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna PUTIH PINK",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cms-122.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CMS 122,Rp 88.900,Rp 102.900,Rp 14.000,CMS 122,Baru
-Jual Dress / Baju Casual Anak Perempuan - CMS 016 Murah,cms-016,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna PUTIH PINK, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cms-001.jpg,-/-,-/-,-/-,-/-,-/-,Dress Casual Anak Perempuan - CMS 001,Rp 118.900,Rp 96.900,Rp 106.900,CMS 001,Baru
+Jual Dress Pendek Anak Perempuan - CPL 927 Murah,cpl-927,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -644,7 +644,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 016 Murah,cms-016,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -667,7 +667,7 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 016 Murah,cms-016,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CMS 016 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CMS 016<br/>Warna : HITAM KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Pendek Anak Perempuan - CPL 927 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CPL 927<br/>Warna : PUTIH<br/>Bahan : TERRY<br/>Ukuran : 4 ~ 10<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -680,8 +680,8 @@ Jual Dress / Baju Casual Anak Perempuan - CMS 016 Murah,cms-016,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cms-016.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CMS 016,Rp 90.900,Rp 104.900,Rp 14.000,CMS 016,Baru
-Jual Dress / Baju Casual Anak Perempuan - CDG 123 Murah,cdg-123,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan TERRY, Warna PUTIH, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cpl-927.jpg,-/-,-/-,-/-,-/-,-/-,Dress Pendek Anak Perempuan - CPL 927,Rp 175.900,Rp 144.900,Rp 158.900,CPL 927,Baru
+Jual Cardigan Lengan Pendek Anak Perempuan - CDG 120 Murah,cdg-120,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -706,7 +706,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 123 Murah,cdg-123,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -729,7 +729,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 123 Murah,cdg-123,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CDG 123 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CDG 123<br/>Warna : MERAH KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Cardigan Lengan Pendek Anak Perempuan - CDG 120 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDG 120<br/>Warna : ABU KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 350 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -742,8 +742,8 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 123 Murah,cdg-123,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna MERAH KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdg-123.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CDG 123,Rp 91.900,Rp 105.900,Rp 14.000,CDG 123,Baru
-Jual Dress / Baju Casual Anak Perempuan - CSH 032 Murah,csh-032,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna ABU KOMBINASI, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdg-120.jpg,-/-,-/-,-/-,-/-,-/-,Cardigan Lengan Pendek Anak Perempuan - CDG 120,Rp 148.900,Rp 120.900,Rp 133.900,CDG 120,Baru
+Jual Dress Pendek Anak Perempuan - CIS 251 Murah,cis-251,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -768,7 +768,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 032 Murah,csh-032,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -791,7 +791,7 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 032 Murah,csh-032,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CSH 032 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CSH 032<br/>Warna : BIRU NAVY<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Pendek Anak Perempuan - CIS 251 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CIS 251<br/>Warna : HITAM KOMBINASI<br/>Bahan : AKRILIT<br/>Ukuran : 4 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -804,8 +804,8 @@ Jual Dress / Baju Casual Anak Perempuan - CSH 032 Murah,csh-032,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/csh-032.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CSH 032,Rp 99.900,Rp 114.900,Rp 15.000,CSH 032,Baru
-Jual Dress / Baju Casual Anak Perempuan - CDG 120 Murah,cdg-120,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan AKRILIT, Warna HITAM KOMBINASI, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cis-251.jpg,-/-,-/-,-/-,-/-,-/-,Dress Pendek Anak Perempuan - CIS 251,Rp 142.900,Rp 116.900,Rp 128.900,CIS 251,Baru
+Jual Dress Casual Anak Perempuan - CSH 025 Murah,csh-025,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -830,7 +830,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 120 Murah,cdg-120,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -853,7 +853,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 120 Murah,cdg-120,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CDG 120 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan COTTON.<br/>Kode : CDG 120<br/>Warna : ABU KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Casual Anak Perempuan - CSH 025 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSH 025<br/>Warna : HITAM KOMBINASI<br/>Bahan : JERSEY<br/>Ukuran : 4 ~ 10<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -866,8 +866,8 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 120 Murah,cdg-120,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Ukuran 4 ~ 10, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdg-120.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CDG 120,Rp 114.900,Rp 132.900,Rp 18.000,CDG 120,Baru
-Jual Dress / Baju Casual Anak Perempuan - CDG 135 Murah,cdg-135,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan JERSEY, Warna HITAM KOMBINASI, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/csh-025.jpg,-/-,-/-,-/-,-/-,-/-,Dress Casual Anak Perempuan - CSH 025,Rp 124.900,Rp 100.900,Rp 111.900,CSH 025,Baru
+Jual Dress Lengan Pendek Anak Perempuan - CMS 034 Murah,cms-034,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -892,7 +892,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 135 Murah,cdg-135,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -915,7 +915,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 135 Murah,cdg-135,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CDG 135 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan FLEECE.<br/>Kode : CDG 135<br/>Warna : ABU ABU<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Lengan Pendek Anak Perempuan - CMS 034 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMS 034<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : 2 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -928,8 +928,8 @@ Jual Dress / Baju Casual Anak Perempuan - CDG 135 Murah,cdg-135,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan FLEECE, Ukuran 4 ~ 10, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdg-135.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CDG 135,Rp 87.900,Rp 101.900,Rp 14.000,CDG 135,Baru
-Jual Dress / Baju Casual Anak Perempuan - CNU 004 Murah,cnu-004,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna HITAM, Size 2 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cms-034.jpg,-/-,-/-,-/-,-/-,-/-,Dress Lengan Pendek Anak Perempuan - CMS 034,Rp 118.900,Rp 96.900,Rp 106.900,CMS 034,Baru
+Jual Dress Pendek Anak Perempuan - CDG 135 Murah,cdg-135,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -954,7 +954,7 @@ Jual Dress / Baju Casual Anak Perempuan - CNU 004 Murah,cnu-004,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -977,7 +977,7 @@ Jual Dress / Baju Casual Anak Perempuan - CNU 004 Murah,cnu-004,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CNU 004 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan DENIM.<br/>Kode : CNU 004<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 8 ~ 12<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dress Pendek Anak Perempuan - CDG 135 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDG 135<br/>Warna : ABU ABU<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -990,8 +990,8 @@ Jual Dress / Baju Casual Anak Perempuan - CNU 004 Murah,cnu-004,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Ukuran 8 ~ 12, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cnu-004.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CNU 004,Rp 171.900,Rp 197.900,Rp 26.000,CNU 004,Baru
-Jual Dress / Baju Casual Anak Perempuan - CDF 124 Murah,cdf-124,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan FLEECE, Warna ABU ABU, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdg-135.jpg,-/-,-/-,-/-,-/-,-/-,Dress Pendek Anak Perempuan - CDG 135,Rp 118.900,Rp 96.900,Rp 106.900,CDG 135,Baru
+Jual Atasan Pendek Anak Perempuan - CMN 020 Murah,cmn-020,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1016,7 +1016,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 124 Murah,cdf-124,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1039,7 +1039,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 124 Murah,cdf-124,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CDF 124 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan DENIM.<br/>Kode : CDF 124<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 6 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Atasan Pendek Anak Perempuan - CMN 020 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMN 020<br/>Warna : PINK<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 8<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1052,8 +1052,8 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 124 Murah,cdf-124,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Ukuran 6 ~ 10, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdf-124.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CDF 124,Rp 134.900,Rp 155.900,Rp 21.000,CDF 124,Baru
-Jual Dress / Baju Casual Anak Perempuan - CDF 131 Murah,cdf-131,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan FLEECE, Warna PINK, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cmn-020.jpg,-/-,-/-,-/-,-/-,-/-,Atasan Pendek Anak Perempuan - CMN 020,Rp 124.900,Rp 100.900,Rp 111.900,CMN 020,Baru
+Jual Kimono Pendek Anak Perempuan - CSH 041 Murah,csh-041,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1078,7 +1078,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 131 Murah,cdf-131,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1101,7 +1101,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 131 Murah,cdf-131,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CDF 131 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan DENIM.<br/>Kode : CDF 131<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 6 ~ 10<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kimono Pendek Anak Perempuan - CSH 041 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSH 041<br/>Warna : BIRU<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 8<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1114,8 +1114,8 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 131 Murah,cdf-131,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Ukuran 6 ~ 10, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdf-131.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CDF 131,Rp 135.900,Rp 156.900,Rp 21.000,CDF 131,Baru
-Jual Dress / Baju Casual Anak Perempuan - CDF 135 Murah,cdf-135,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna BIRU, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/csh-041.jpg,-/-,-/-,-/-,-/-,-/-,Kimono Pendek Anak Perempuan - CSH 041,Rp 108.900,Rp 88.900,Rp 97.900,CSH 041,Baru
+Jual Atasan Lengan Pendek Anak Perempuan - CDG 160 Murah,cdg-160,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1140,7 +1140,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 135 Murah,cdf-135,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1163,7 +1163,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 135 Murah,cdf-135,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CDF 135 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan DENIM.<br/>Kode : CDF 135<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 4 ~ 8<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Atasan Lengan Pendek Anak Perempuan - CDG 160 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDG 160<br/>Warna : ABU ABU<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 10<br/>Berat : 550 gram<br/>Info Lainnya = BABY TERY<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1176,8 +1176,8 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 135 Murah,cdf-135,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Ukuran 4 ~ 8, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdf-135.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CDF 135,Rp 134.900,Rp 155.900,Rp 21.000,CDF 135,Baru
-Jual Dress / Baju Casual Anak Perempuan - CDF 119 Murah,cdf-119,"
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan FLEECE, Warna ABU ABU, Size 4 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdg-160.jpg,-/-,-/-,-/-,-/-,-/-,Atasan Lengan Pendek Anak Perempuan - CDG 160,Rp 114.900,Rp 92.900,Rp 102.900,CDG 160,Baru
+Jual Atasan Pendek Anak Perempuan - CMN 019 Murah,cmn-019,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1202,7 +1202,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 119 Murah,cdf-119,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1225,7 +1225,7 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 119 Murah,cdf-119,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dress / Baju Casual Anak Perempuan - CDF 119 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dress Anak Perempuan ini terbuat dari bahan DENIM.<br/>Kode : CDF 119<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 2 ~ 6<br/>Berat : 600 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Atasan Pendek Anak Perempuan - CMN 019 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMN 019<br/>Warna : BIRU<br/>Bahan : FLEECE<br/>Ukuran : 4 ~ 8<br/>Berat : 550 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1238,4 +1238,438 @@ Jual Dress / Baju Casual Anak Perempuan - CDF 119 Murah,cdf-119,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Ukuran 2 ~ 6, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cdf-119.jpg,-/-,-/-,-/-,-/-,-/-,Dress / Baju Casual Anak Perempuan - CDF 119,Rp 121.900,Rp 140.900,Rp 19.000,CDF 119,Baru
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan FLEECE, Warna BIRU, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cmn-019.jpg,-/-,-/-,-/-,-/-,-/-,Atasan Pendek Anak Perempuan - CMN 019,Rp 114.900,Rp 92.900,Rp 102.900,CMN 019,Baru
+Jual Atasan Panjang Anak Perempuan - CSE 188 Murah,cse-188,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Atasan Panjang Anak Perempuan - CSE 188 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CSE 188<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : 6 ~ 10<br/>Berat : 450 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna ABU ABU, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cse-188.jpg,-/-,-/-,-/-,-/-,-/-,Atasan Panjang Anak Perempuan - CSE 188,Rp 137.900,Rp 112.900,Rp 123.900,CSE 188,Baru
+Jual Overall Panjang Anak Perempuan - CNU 004 Murah,cnu-004,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Overall Panjang Anak Perempuan - CNU 004 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CNU 004<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 8 ~ 12<br/>Berat : 700 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Warna BIRU, Size 8 ~ 12",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cnu-004.jpg,-/-,-/-,-/-,-/-,-/-,Overall Panjang Anak Perempuan - CNU 004,Rp 228.900,Rp 187.900,Rp 206.900,CNU 004,Baru
+Jual Overall Panjang Anak Perempuan - CDF 124 Murah,cdf-124,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Overall Panjang Anak Perempuan - CDF 124 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDF 124<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 6 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan DENIM, Warna BIRU, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdf-124.jpg,-/-,-/-,-/-,-/-,-/-,Overall Panjang Anak Perempuan - CDF 124,Rp 174.900,Rp 142.900,Rp 157.900,CDF 124,Baru
+Jual Dress Lengan Pendek Bayi Perempuan - CMS 035 Murah,cms-035,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Dress Lengan Pendek Bayi Perempuan - CMS 035 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CMS 035<br/>Warna : MERAH<br/>Bahan : COTTON<br/>Ukuran : 6BLN ~ 18BLN<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna MERAH, Size 6BLN ~ 18BLN",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cms-035.jpg,-/-,-/-,-/-,-/-,-/-,Dress Lengan Pendek Bayi Perempuan - CMS 035,Rp 118.900,Rp 96.900,Rp 106.900,CMS 035,Baru
+Jual Dress Lengan Pendek Bayi Perempuan - CDF 141 Murah,cdf-141,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Dress Lengan Pendek Bayi Perempuan - CDF 141 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDF 141<br/>Warna : HITAM KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 6BLN ~ 18BLN<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna HITAM KOMBINASI, Size 6BLN ~ 18BLN",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdf-141.jpg,-/-,-/-,-/-,-/-,-/-,Dress Lengan Pendek Bayi Perempuan - CDF 141,Rp 114.900,Rp 92.900,Rp 102.900,CDF 141,Baru
+Jual Dress Lengan Pendek Bayi Perempuan - CDF 137 Murah,cdf-137,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Dress Lengan Pendek Bayi Perempuan - CDF 137 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDF 137<br/>Warna : PINK<br/>Bahan : COTTON<br/>Ukuran : 6BLN ~ 18BLN<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna PINK, Size 6BLN ~ 18BLN",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdf-137.jpg,-/-,-/-,-/-,-/-,-/-,Dress Lengan Pendek Bayi Perempuan - CDF 137,Rp 148.900,Rp 120.900,Rp 133.900,CDF 137,Baru
+Jual Dress Lengan Pendek Bayi Perempuan - CDF 140 Murah,cdf-140,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Dress Lengan Pendek Bayi Perempuan - CDF 140 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CDF 140<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : 6BLN ~ 18BLN<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-18,html,dress-anak-perempuan,catenzo-junior,dress-anak-perempuan,catenzo-junior,"Dress Anak Perempuan Bahan COTTON, Warna HITAM, Size 6BLN ~ 18BLN",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cdf-140.jpg,-/-,-/-,-/-,-/-,-/-,Dress Lengan Pendek Bayi Perempuan - CDF 140,Rp 114.900,Rp 92.900,Rp 102.900,CDF 140,Baru
